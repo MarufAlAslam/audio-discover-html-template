@@ -16,3 +16,39 @@ h6,
 .qualy {
   font-family: "qualy";
 }
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* wrapper */
+.wrapper {
+  min-height: 100vh;
+  background: url("../img/bg.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* header */
+.logo {
+  width: 200px;
+}
+
+.nav-link {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-link.active,
+a.active,
+a:hover {
+  color: #e67a77 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: unset !important;
+  box-shadow: unset !important;
+}
