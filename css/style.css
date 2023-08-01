@@ -163,3 +163,51 @@ a:hover {
 textarea {
   resize: none;
 }
+
+/* footer */
+footer {
+  background-color: #121b21;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 35px;
+  }
+  .fs-30 {
+    font-size: 16px;
+  }
+  .about {
+    background: unset;
+  }
+  .hero {
+    background: unset;
+    margin-bottom: 0;
+  }
+  .formats {
+    padding-top: 0 !important;
+  }
+  .fs-70 {
+    font-size: 35px;
+  }
+  .fs-34 {
+    font-size: 22px;
+  }
+  .lead {
+    font-size: 16px !important;
+  }
+  .bg-format {
+    display: none;
+  }
+  .formats {
+    padding-bottom: 0 !important;
+    background: unset;
+  }
+  .contact .text-end,
+  footer .text-end {
+    text-align: center !important;
+  }
+}
