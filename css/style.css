@@ -147,3 +147,19 @@ a:hover {
 .container.position-relative {
   z-index: 100;
 }
+.bg-format::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  z-index: 100;
+}
+
+/* contact */
+.contact {
+  background: linear-gradient(90deg, #05101c, #09101b, #170909);
+}
+textarea {
+  resize: none;
+}
