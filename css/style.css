@@ -52,3 +52,17 @@ a:hover {
   outline: unset !important;
   box-shadow: unset !important;
 }
+
+/* hero */
+.title {
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 1;
+  background: -webkit-linear-gradient(135deg, #3397e2, #3397e2, #e67a77);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
