@@ -1,0 +1,18 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "qualy";
+  src: url("../fonts/qualy.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.qualy {
+  font-family: "qualy";
+}
