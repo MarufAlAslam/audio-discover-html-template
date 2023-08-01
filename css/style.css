@@ -54,6 +54,17 @@ a:hover {
 }
 
 /* hero */
+.hero {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    transparent,
+    transparent,
+    transparent,
+    rgba(0, 0, 0, 0.8)
+  );
+  margin-bottom: 24px;
+}
 .title {
   font-size: 90px;
   font-weight: bold;
@@ -65,4 +76,29 @@ a:hover {
 
 .fs-30 {
   font-size: 30px;
+}
+
+/* about us */
+.about {
+  background-image: linear-gradient(transparent, #151b21),
+    url("../img/about-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.fs-34 {
+  font-size: 34px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+/* what-we-do */
+.what-we-do {
+  background-image: linear-gradient(#151b21, transparent),
+    url("../img/what-we-do-bg.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left;
 }
